@@ -1,0 +1,6 @@
+{
+    "routes": [
+      { "src": "/Assets/(.*)", "dest": "/Assets/$1" }
+    ]
+  }
+  
