@@ -94,7 +94,7 @@ function NavBar() {
 
             {/* <Nav.Item>
               <Nav.Link
-                href="https://react-portfolio-ecru-eta.vercel.app/"
+                href="https://react-portfolio-git-main-snehs-projects-95940ffd.vercel.app?_vercel_share=IVCvzY31vPVlXFpvDJec2WdNWAvLd9on"
                 target="_blank"
                 rel="noreferrer"
               >
