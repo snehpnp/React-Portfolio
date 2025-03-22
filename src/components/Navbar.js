@@ -92,15 +92,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
-                href="https://react-portfolio-git-main-snehs-projects-95940ffd.vercel.app?_vercel_share=IVCvzY31vPVlXFpvDJec2WdNWAvLd9on"
+                href="https://snehtech.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
