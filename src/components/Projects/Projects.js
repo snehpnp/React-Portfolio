@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import NewSmartAlgo from "../../Assets/Projects/NewSmartAlgo.png";
+import Abudhabi from "../../Assets/Projects/Abudhabi.svg";
+import Outbook from "../../Assets/Projects/Outbook.png";
+import StockBox from "../../Assets/Projects/StockBox.png";
+import Esign from "../../Assets/Projects/Esign.png";
+import PricingTool from "../../Assets/Projects/PricingTool.png";
 
 function Projects() {
   return (
@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -23,68 +23,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={StockBox}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/snehpnp/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Stock Box"
+              description="Stock Box is a dynamic trading marketplace where users can design, trade, and monetize trading strategies. The platform provides real-time strategy performance monitoring through WebSocket-based live updates. It features multi-layer authentication and secure payment systems to ensure reliable transactions. Backend optimizations have achieved 20% faster execution speeds compared to competitors."
+              ghLink="https://github.com/snehpnp/Stockbox_theme"
+              demoLink="https://stockboxpnp.pnpuniverse.com/#/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={PricingTool}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/snehpnp/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Pricing Tool"
+              description="The Pricing Tool is a dynamic pricing engine that enables users to build custom service packages with flexible pricing models. It integrates AI-driven recommendation algorithms to suggest optimal service configurations for clients. The tool also features a comparison module for analyzing pricing packages side by side, improving customer decision-making by 30%. Personalized email templates have enhanced client engagement, leading to a 25% rise in follow-up responses."
+              ghLink="https://github.com/SHKGIT007/PRICING-TOOL"
+              demoLink="https://price.magicweb.tk/#/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Outbook}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/snehpnp/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Outbook"
+              description="Outbook is a responsive platform for customer and job management workflows, reducing data entry time by 30%. It features a scalable backend with Node.js and MySQL, handling complex operations such as payroll calculations and timesheet tracking. Automated timesheet reminders and activity logs improve operational efficiency by 20%. The system also includes dynamic reporting with custom filters and charts to simplify data analysis for stakeholders."
+              ghLink="https://github.com/Smarts-Solutions/outbook"
+              demoLink="https://outbooks.tradestreet.in/#/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={NewSmartAlgo}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/snehpnp/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="New Smart Algo"
+              description="New Smart Algo is a sophisticated algorithmic trading platform supporting over 30 broker integrations and diverse trading strategies. It leverages Socket.io for real-time order processing, ensuring millisecond-level execution accuracy. Advanced tools like TradingView and MT4 are integrated for professional-grade trade analysis. UX optimizations and seamless onboarding have improved user retention by 15%."
+              ghLink="https://github.com/snehpnp/New_Smart_Algo"
+              demoLink="https://newpenal.pandpinfotech.com/#/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Esign}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/snehpnp/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="E-Sign"
+              description="E-Sign is a secure digital signature platform compliant with legal standards, handling over 500+ digital signatures daily. It integrates government APIs such as Aadhaar, PAN, and phone verification to ensure 99.9% identity authentication accuracy. The platform offers a seamless document upload and signing experience through a user-friendly React.js interface. Security features include encryption and audit trails, enhancing user trust and adoption by 15%."
+              ghLink="https://github.com/snehpnp/New_Smart_Algo"
+              demoLink="https://app.esignaadhaar.com/#/weblanding"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Abudhabi}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/snehpnp/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Abu Dhabi"
+              description="This project utilizes a Convolutional Neural Network (CNN) trained on the FER-2013 dataset with Keras and TensorFlow to classify human emotions. The classifier successfully predicts various emotions with an accuracy of 60.1%. OpenCV is integrated to detect faces in images, which are then processed by the classifier to determine the person's emotion."
+              ghLink="https://github.com/snehpnp/abudhabi"
+              demoLink="https://your-demo-link.com" // Please replace with the actual demo link
             />
           </Col>
         </Row>

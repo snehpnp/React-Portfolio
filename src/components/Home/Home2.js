@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Javascript and TypeScript. </b>
               </i>
               <br />
               <br />
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/snehpnp/"
+                  href="https://www.linkedin.com/in/sneh-jaiswal-431165229/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/snehpnp"
+                  href="https://www.instagram.com/mr_jaiswal001/?hl=en"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
