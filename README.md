@@ -1,6 +1,8 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://react-portfolio-ecru-eta.vercel.app/" target="_blank">Sneh.tech</a>
+  <!-- <a href="https://react-portfolio-ecru-eta.vercel.app/" target="_blank">Sneh.tech</a> -->
+  <a href="https://react-portfolio-4cxpccsm7-snehs-projects-95940ffd.vercel.app" target="_blank">Sneh.tech</a>
+
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
