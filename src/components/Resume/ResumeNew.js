@@ -21,7 +21,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={'/Assets/Mern Stack 2+ years experience.pdf'}
+            href={'/Assets/Mern_Stack_Experience.pdf'}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -31,7 +31,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={"/Assets/Mern Stack 2+ years experience.pdf"} className="d-flex justify-content-center">
+          <Document file={"/Assets/Mern_Stack_Experience.pdf"} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
@@ -39,7 +39,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={"/Assets/Mern Stack 2+ years experience.pdf"}
+            href={"/Assets/Mern_Stack_Experience.pdf"}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
