@@ -5,8 +5,11 @@ import {
   SiPostman,
   SiSlack,
   SiVercel,
-  SiMacos,
+  SiMacos
+   ,SiNetlify 
 } from "react-icons/si";
+import { FaGithub,FaAws  } from "react-icons/fa";
+
 
 function Toolstack() {
   return (
@@ -23,8 +26,18 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
       </Col>
+     
+      <Col xs={4} md={2} className="tech-icons">
+        <FaGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws  />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify   />
       </Col>
     </Row>
   );
